@@ -4,6 +4,7 @@
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
 	Hoi : BOOL;
+	Hallo : BOOL;
 END_VAR
 ]]></Declaration>
     <Implementation>
