@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # TcXaeShell Solution File, Format Version 11.00
-VisualStudioVersion = 17.12.37328.8 d17.12
+VisualStudioVersion = 17.12.37328.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{DFBE7525-6864-4E62-8B2E-D530D69D9D96}") = "Depalletizer", "Depalletizer\Depalletizer.tspproj", "{BB4308DE-D340-49CF-847A-652A124E5916}"
 EndProject
