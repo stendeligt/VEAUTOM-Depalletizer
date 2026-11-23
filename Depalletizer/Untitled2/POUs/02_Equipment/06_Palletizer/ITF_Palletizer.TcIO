@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <Itf Name="ITF_Palletizer" Id="{33157d8e-5391-4702-b71b-525bb558b4d4}">
+    <Declaration><![CDATA[INTERFACE ITF_Palletizer
+]]></Declaration>
+    <Folder Name="Methods" Id="{8c576470-f729-4ddb-8f2b-89977d8a8c6a}" />
+    <Method Name="Aborted" Id="{054683a2-c70d-4c45-808b-4624615b1ea8}" FolderPath="Methods\">
+      <Declaration><![CDATA[METHOD Aborted : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+    </Method>
+    <Method Name="Aborting" Id="{97dcc156-b2b8-4ac6-9372-90857dc0d2e8}" FolderPath="Methods\">
+      <Declaration><![CDATA[METHOD Aborting : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+    </Method>
+    <Method Name="Clearing" Id="{363f2fac-61b2-43b6-990f-f8dee19dece5}" FolderPath="Methods\">
+      <Declaration><![CDATA[METHOD Clearing : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+    </Method>
+    <Method Name="Execute" Id="{28e1cc44-a328-4a40-9cc8-a391612d1a6b}" FolderPath="Methods\">
+      <Declaration><![CDATA[METHOD Execute : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+    </Method>
+    <Method Name="Held" Id="{dca16d8a-c723-447c-a3e0-d0932dc58902}" FolderPath="Methods\">
+      <Declaration><![CDATA[METHOD Held : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+    </Method>
+    <Method Name="Holding" Id="{215aca0a-ef72-48f4-9e92-093f003bfd5c}" FolderPath="Methods\">
+      <Declaration><![CDATA[METHOD Holding : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+    </Method>
+    <Method Name="Idle" Id="{7ae5caab-47d4-4848-961e-51b7e118ff83}" FolderPath="Methods\">
+      <Declaration><![CDATA[METHOD Idle : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+    </Method>
+    <Method Name="Resetting" Id="{f34e34cb-511f-4a67-810a-bf6850cb7967}" FolderPath="Methods\">
+      <Declaration><![CDATA[METHOD Resetting : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+    </Method>
+    <Method Name="Starting" Id="{e9406012-6c83-4f6a-b3a4-f54b2df4df29}" FolderPath="Methods\">
+      <Declaration><![CDATA[METHOD Starting : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+    </Method>
+    <Method Name="Stopped" Id="{8b5c0e00-7f5f-4833-bc00-c52667172ffc}" FolderPath="Methods\">
+      <Declaration><![CDATA[METHOD Stopped : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+    </Method>
+    <Method Name="Stopping" Id="{279eca02-8944-4805-9bbd-91552509a5f9}" FolderPath="Methods\">
+      <Declaration><![CDATA[METHOD Stopping : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+    </Method>
+    <Method Name="Suspended" Id="{9f1182d0-b4a4-46e1-be8f-2057da93d124}" FolderPath="Methods\">
+      <Declaration><![CDATA[METHOD Suspended : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+    </Method>
+    <Method Name="Suspending" Id="{ac3b25f1-1ab3-4f02-a760-2bdddfc7c95d}" FolderPath="Methods\">
+      <Declaration><![CDATA[METHOD Suspending : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+    </Method>
+    <Method Name="Unholding" Id="{6a2b3b3b-e238-4b93-8955-39fc3b5389f1}" FolderPath="Methods\">
+      <Declaration><![CDATA[METHOD Unholding : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+    </Method>
+    <Method Name="Unsuspending" Id="{182a2f75-2641-4947-b45f-f3d2e07493eb}" FolderPath="Methods\">
+      <Declaration><![CDATA[METHOD Unsuspending : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+    </Method>
+  </Itf>
+</TcPlcObject>
