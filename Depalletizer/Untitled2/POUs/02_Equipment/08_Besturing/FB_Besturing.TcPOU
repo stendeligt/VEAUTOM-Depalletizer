@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="FB_Besturing" Id="{2d50245b-8b53-4c5f-a24c-67422698d9cd}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_Besturing IMPLEMENTS ITF_Besturing
+VAR_INPUT
+END_VAR
+VAR_OUTPUT
+END_VAR
+VAR
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+    <Folder Name="Methods" Id="{cbf70383-cc63-4fb1-bda0-6b79f4aa4a91}" />
+    <Method Name="StatusLampGeel" Id="{6fdd2845-507c-4f65-969d-037b60785eaa}" FolderPath="Methods\">
+      <Declaration><![CDATA[{warning 'Add method implementation '}
+METHOD StatusLampGeel : BOOL
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="StatusLampGroen" Id="{1ae9ab3f-ab41-464b-ae60-e994a85e5dbc}" FolderPath="Methods\">
+      <Declaration><![CDATA[{warning 'Add method implementation '}
+METHOD StatusLampGroen : BOOL
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="StatusLampRood" Id="{9ad9db52-d671-4976-8c61-563214ae33a3}" FolderPath="Methods\">
+      <Declaration><![CDATA[{warning 'Add method implementation '}
+METHOD StatusLampRood : BOOL
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+  </POU>
+</TcPlcObject>

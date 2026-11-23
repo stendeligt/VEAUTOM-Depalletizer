@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <Itf Name="ITF_Besturing" Id="{ae603c01-8ddd-46fb-b402-eb8e14fadd45}">
+    <Declaration><![CDATA[INTERFACE ITF_Besturing
+]]></Declaration>
+    <Folder Name="Methods" Id="{dfaae961-c49e-4380-8259-499bf9f9626d}" />
+    <Method Name="StatusLampGeel" Id="{5f1f2e42-6212-4e07-aba3-e2ff4361aa63}" FolderPath="Methods\">
+      <Declaration><![CDATA[METHOD StatusLampGeel : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+    </Method>
+    <Method Name="StatusLampGroen" Id="{520d46f9-4f19-4802-973d-391d7d98cfff}" FolderPath="Methods\">
+      <Declaration><![CDATA[METHOD StatusLampGroen : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+    </Method>
+    <Method Name="StatusLampRood" Id="{71d6baf5-d462-4841-9bea-0f3d7129ce3a}" FolderPath="Methods\">
+      <Declaration><![CDATA[METHOD StatusLampRood : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+    </Method>
+  </Itf>
+</TcPlcObject>
