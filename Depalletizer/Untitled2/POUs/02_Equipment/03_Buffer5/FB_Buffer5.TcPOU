@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="FB_Buffer5" Id="{68b6c181-fb5e-4633-8340-2c972290f158}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_Buffer5 IMPLEMENTS ITF_Buffer5
+VAR_INPUT
+END_VAR
+VAR_OUTPUT
+END_VAR
+VAR
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+    <Folder Name="Methods" Id="{ea3de5bf-78cc-4aaa-881d-872d01108b36}" />
+    <Method Name="Aborted" Id="{4d723c13-ef33-489d-93b0-ee0e47df53d1}" FolderPath="Methods\">
+      <Declaration><![CDATA[{warning 'Add method implementation '}
+METHOD Aborted : BOOL
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="Aborting" Id="{e8243e2d-b98e-462f-aec6-a3e35b85de58}" FolderPath="Methods\">
+      <Declaration><![CDATA[{warning 'Add method implementation '}
+METHOD Aborting : BOOL
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="Clearing" Id="{1ef713ba-ba14-4090-8697-df3273aa5286}" FolderPath="Methods\">
+      <Declaration><![CDATA[{warning 'Add method implementation '}
+METHOD Clearing : BOOL
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="Execute" Id="{346565ed-a89d-4b29-b237-7f14c37fc0a3}" FolderPath="Methods\">
+      <Declaration><![CDATA[{warning 'Add method implementation '}
+METHOD Execute : BOOL
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="Held" Id="{1f68f14d-6aee-4cdb-b61c-3b93dbeddc9f}" FolderPath="Methods\">
+      <Declaration><![CDATA[{warning 'Add method implementation '}
+METHOD Held : BOOL
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="Holding" Id="{2c6c7c69-5562-4745-8d05-7105f4ac9efc}" FolderPath="Methods\">
+      <Declaration><![CDATA[{warning 'Add method implementation '}
+METHOD Holding : BOOL
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="Idle" Id="{650c2b5e-fb8b-4b04-9c91-e984657e03bd}" FolderPath="Methods\">
+      <Declaration><![CDATA[{warning 'Add method implementation '}
+METHOD Idle : BOOL
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="Resetting" Id="{ef435268-8b2c-4149-8b13-5d991fe4e438}" FolderPath="Methods\">
+      <Declaration><![CDATA[{warning 'Add method implementation '}
+METHOD Resetting : BOOL
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="Starting" Id="{fbdede14-24a4-48c5-a131-2bb90d797689}" FolderPath="Methods\">
+      <Declaration><![CDATA[{warning 'Add method implementation '}
+METHOD Starting : BOOL
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="Stopped" Id="{8c889838-6f6a-44b6-9deb-a2ed4be845af}" FolderPath="Methods\">
+      <Declaration><![CDATA[{warning 'Add method implementation '}
+METHOD Stopped : BOOL
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="Stopping" Id="{22d11821-06b2-4886-8caf-a91b61c2870a}" FolderPath="Methods\">
+      <Declaration><![CDATA[{warning 'Add method implementation '}
+METHOD Stopping : BOOL
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="Suspended" Id="{e6c5041e-6231-4110-9645-fbfc5a2a1797}" FolderPath="Methods\">
+      <Declaration><![CDATA[{warning 'Add method implementation '}
+METHOD Suspended : BOOL
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="Suspending" Id="{f73956be-9c97-46b3-bd77-349510f69156}" FolderPath="Methods\">
+      <Declaration><![CDATA[{warning 'Add method implementation '}
+METHOD Suspending : BOOL
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="Unholding" Id="{bd214273-4c3d-409e-bf69-3c9f96aacd9c}" FolderPath="Methods\">
+      <Declaration><![CDATA[{warning 'Add method implementation '}
+METHOD Unholding : BOOL
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="Unsuspending" Id="{7d53bfdb-4229-44c8-8310-c79d7bc0b108}" FolderPath="Methods\">
+      <Declaration><![CDATA[{warning 'Add method implementation '}
+METHOD Unsuspending : BOOL
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+  </POU>
+</TcPlcObject>

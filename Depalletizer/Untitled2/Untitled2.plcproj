@@ -41,6 +41,12 @@
     <Compile Include="POUs\02_Equipment\02_Buffer2-4\ITF_Buffer2_4.TcIO">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="POUs\02_Equipment\03_Buffer5\FB_Buffer5.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="POUs\02_Equipment\03_Buffer5\ITF_Buffer5.TcIO">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="POUs\02_Equipment\FB_Equipment.TcPOU">
       <SubType>Code</SubType>
     </Compile>
