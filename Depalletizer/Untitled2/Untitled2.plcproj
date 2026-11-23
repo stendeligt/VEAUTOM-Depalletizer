@@ -29,6 +29,12 @@
     <Compile Include="POUs\01_Unit\FB_Unit.TcPOU">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="POUs\02_Equipment\01_Palletinvoer\FB_Palletinvoer.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="POUs\02_Equipment\01_Palletinvoer\ITF_Palletinvoer.TcIO">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="POUs\02_Equipment\FB_Equipment.TcPOU">
       <SubType>Code</SubType>
     </Compile>
