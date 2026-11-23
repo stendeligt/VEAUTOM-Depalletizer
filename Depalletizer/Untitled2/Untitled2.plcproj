@@ -17,6 +17,9 @@
     <LibraryReferences>{1f8dcc3f-3270-4e5e-baf6-02cb5c0ac6fe}</LibraryReferences>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DUTs\E_PackMLStates.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PlcTask.TcTTO">
       <SubType>Code</SubType>
     </Compile>
