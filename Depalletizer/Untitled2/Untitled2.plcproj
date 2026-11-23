@@ -65,6 +65,12 @@
     <Compile Include="POUs\02_Equipment\06_Palletizer\ITF_Palletizer.TcIO">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="POUs\02_Equipment\07_Blikjesband\FB_Blikjesband.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="POUs\02_Equipment\07_Blikjesband\ITF_Blikjesband.TcIO">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="POUs\02_Equipment\FB_Equipment.TcPOU">
       <SubType>Code</SubType>
     </Compile>
