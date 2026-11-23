@@ -83,7 +83,13 @@
     <Compile Include="POUs\03_Control\FB_Control.TcPOU">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="POUs\04_Management\FB_Safety.TcPOU">
+    <Compile Include="POUs\04_Management\Alarmmanager\FB_Alarmmanager.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="POUs\04_Management\HMI\FB_HMI.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="POUs\04_Management\Safety\FB_Safety.TcPOU">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -103,6 +109,9 @@
     <Folder Include="POUs\02_Equipment\08_Besturing" />
     <Folder Include="POUs\03_Control" />
     <Folder Include="POUs\04_Management" />
+    <Folder Include="POUs\04_Management\HMI" />
+    <Folder Include="POUs\04_Management\Alarmmanager" />
+    <Folder Include="POUs\04_Management\Safety" />
     <Folder Include="VISUs" />
     <Folder Include="POUs" />
   </ItemGroup>
