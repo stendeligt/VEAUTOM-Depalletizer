@@ -53,6 +53,12 @@
     <Compile Include="POUs\02_Equipment\04_Depalletizer\ITF_Depalletizer.TcIO">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="POUs\02_Equipment\05_Banddepalletizer\FB_Banddepalletizer.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="POUs\02_Equipment\05_Banddepalletizer\ITF_Banddepalletizer.TcIO">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="POUs\02_Equipment\FB_Equipment.TcPOU">
       <SubType>Code</SubType>
     </Compile>
