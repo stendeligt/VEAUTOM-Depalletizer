@@ -130,6 +130,11 @@
       <SystemLibrary>true</SystemLibrary>
     </PlaceholderReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Untitled2.tmc">
+      <SubType>Content</SubType>
+    </None>
+  </ItemGroup>
   <ProjectExtensions>
     <PlcProjectOptions>
       <XmlArchive>
